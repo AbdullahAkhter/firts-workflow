@@ -1,11 +1,11 @@
-name: Abdullah
+name: Akhter
 on: 
- push: 
-  branches: [main]
+ schedule:
+   - cron: "0 0 * * *"
 jobs:
   demo:
    runs-on: ubuntu-latest
    steps:
-     - name: Abdullah
-       run: echo "greeting"
+     - name: greeting
+       run: echo "jfjjfhfhffhfhf"
   
